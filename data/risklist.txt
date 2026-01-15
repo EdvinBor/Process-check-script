@@ -1,0 +1,40 @@
+# Example risklist for linux_check.sh
+# One pattern per line. Lines starting with # are comments and ignored.
+
+# Network utilities often abused for tunnels / data exfiltration
+nc
+ncat
+netcat
+socat
+
+# Download/upload tools
+curl
+wget
+ftp
+
+# Interactive shells or reverse shells
+bash -i
+sh -i
+python -c
+python -m http.server
+perl -e
+ruby -e
+php -r
+"/bin/sh -i"
+
+# Remote/administrative tools (may be legitimate but included for review)
+ssh
+rlogin
+rsh
+
+# Offensive tooling signatures
+meterpreter
+mimikatz
+evilwinrm
+
+# Powershell (on systems where it's present)
+powershell
+pwsh
+
+# Custom suspicious names (add project-specific entries below)
+# suspicious_process_name

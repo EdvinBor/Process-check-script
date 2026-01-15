@@ -1,0 +1,39 @@
+======================================================================
+SÄKERHETSRAPPORT
+======================================================================
+Genererad: 2026-01-14 21:51:49
+Total säkerhetsnivå: MEDIUM
+
+SAMMANFATTNING
+----------------------------------------------------------------------
+Linux processer: 25 totalt, 0 anomalier
+Windows tjänster: 83 totalt
+Logghändelser: 196 rader
+
+Risker: 0 CRITICAL | 5 HIGH | 80 MEDIUM
+
+HÖGA RISKER
+----------------------------------------------------------------------
+[Log Error] Error Event
+  Details: [2026-01-13 18:28:16] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:32:58] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:39:32] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:43:47] [ERROR] Kunde inte exportera CSV: Cannot bind argument to 
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:50:51] [ERROR] Kunde inte hämta tjänster: Service 'MDCoreSvc (MDC
+
+REKOMMENDATIONER
+----------------------------------------------------------------------
+- Granska mediumrisk-händelser vid tillfälle
+- Kör säkerhetsskanning regelbundet
+- Uppdatera risklistan baserat på nya hot
+- Håll system och tjänster uppdaterade
+
+======================================================================

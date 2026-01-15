@@ -1,0 +1,37 @@
+{
+  "scan_date": "2026-01-14 21:40:33",
+  "hostname": "DESKTOP-CD2AD51",
+  "total_processes": 25,
+  "risky_processes_found": 0,
+  "severity": "LOW",
+  "all_processes": [
+    {"pid":"1","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/sbin/init "},
+    {"pid":"2","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/init "},
+    {"pid":"6","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate "},
+    {"pid":"42","user":"root","cpu_percent":"0.0","memory_percent":"0.1","command":"/usr/lib/systemd/systemd-journald "},
+    {"pid":"93","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/lib/systemd/systemd-udevd "},
+    {"pid":"116","user":"systemd+","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/lib/systemd/systemd-resolved "},
+    {"pid":"125","user":"systemd+","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/lib/systemd/systemd-timesyncd "},
+    {"pid":"163","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/sbin/cron -f -P "},
+    {"pid":"164","user":"message+","cpu_percent":"0.0","memory_percent":"0.0","command":"@dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only "},
+    {"pid":"171","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/lib/systemd/systemd-logind "},
+    {"pid":"173","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/libexec/wsl-pro-service -vv "},
+    {"pid":"175","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/sbin/agetty -o -p -- \\u --noclear --keep-baud - 115200,38400,9600 vt220 "},
+    {"pid":"185","user":"syslog","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/sbin/rsyslogd -n -iNONE "},
+    {"pid":"194","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/sbin/agetty -o -p -- \\u --noclear - linux "},
+    {"pid":"200","user":"root","cpu_percent":"0.0","memory_percent":"0.1","command":"/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal "},
+    {"pid":"297","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/bin/login -f "},
+    {"pid":"343","user":"dvin","cpu_percent":"0.0","memory_percent":"0.0","command":"/usr/lib/systemd/systemd --user "},
+    {"pid":"344","user":"dvin","cpu_percent":"0.0","memory_percent":"0.0","command":"(sd-pam) "},
+    {"pid":"368","user":"dvin","cpu_percent":"0.0","memory_percent":"0.0","command":"-bash "},
+    {"pid":"11150","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/init "},
+    {"pid":"11153","user":"root","cpu_percent":"0.0","memory_percent":"0.0","command":"/init "},
+    {"pid":"11156","user":"dvin","cpu_percent":"0.0","memory_percent":"0.0","command":"-bash "},
+    {"pid":"12963","user":"dvin","cpu_percent":"0.0","memory_percent":"0.0","command":"bash linux_check.sh "},
+    {"pid":"12977","user":"dvin","cpu_percent":"0.0","memory_percent":"0.0","command":"bash linux_check.sh "},
+    {"pid":"12978","user":"dvin","cpu_percent":"0.0","memory_percent":"0.0","command":"ps aux --no-headers "}
+  ],
+  "anomalies": [
+
+  ]
+}

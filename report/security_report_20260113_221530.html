@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Säkerhetsrapport - 2026-01-13 22:15:30</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 3px solid #007bff; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 30px; }
+        .summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 20px 0; }
+        .summary-box { padding: 20px; border-radius: 5px; text-align: center; }
+        .critical { background-color: #dc3545; color: white; }
+        .high { background-color: #fd7e14; color: white; }
+        .medium { background-color: #ffc107; color: black; }
+        .low { background-color: #28a745; color: white; }
+        .severity-badge { display: inline-block; padding: 5px 15px; border-radius: 3px; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #007bff; color: white; }
+        tr:hover { background-color: #f1f1f1; }
+        .timestamp { color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Säkerhetsrapport</h1>
+        <p class="timestamp">Genererad: 2026-01-13 22:15:30</p>
+        
+        <div class="summary">
+            <div class="summary-box critical">
+                <h3>0</h3>
+                <p>CRITICAL</p>
+            </div>
+            <div class="summary-box high">
+                <h3>9</h3>
+                <p>HIGH</p>
+            </div>
+            <div class="summary-box medium">
+                <h3>80</h3>
+                <p>MEDIUM</p>
+            </div>
+            <div class="summary-box low">
+                <h3>104</h3>
+                <p>LOW</p>
+            </div>
+        </div>
+        
+        <h2>📊 Sammanfattning</h2>
+        <p><strong>Total säkerhetsnivå:</strong> <span class="severity-badge high">HIGH</span></p>
+        <p><strong>Linux processer:</strong> 25 totalt, 0 anomalier</p>
+        <p><strong>Windows tjänster:</strong> 83 totalt, 9 riskiga</p>
+        <p><strong>Loggade händelser:</strong> 182 rader</p>
+        
+        <h2>⚠️ Kritiska processer (Linux)</h2>
+        <table>
+            <tr><th>PID</th><th>Kommando</th><th>Mönster</th><th>Risk</th></tr>
+<tr><td colspan="4" style="text-align:center;">Inga kritiska processer funna ✅</td></tr>
+        </table>
+        
+        <h2>🔴 Högrisk-tjänster (Windows)</h2>
+        <table>
+            <tr><th>Tjänst</th><th>Visningsnamn</th><th>Status</th><th>Risk</th></tr>
+
+            <tr>
+                <td>DcomLaunch</td>
+                <td>DCOM Server Process Launcher</td>
+                <td>Running</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>EFS</td>
+                <td>Encrypting File System (EFS)</td>
+                <td>Running</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>NcbService</td>
+                <td>Network Connection Broker</td>
+                <td>Running</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>OneSyncSvc_7b8a9</td>
+                <td>Sync Host_7b8a9</td>
+                <td>Running</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+        </table>
+        
+        <h2>📋 Viktiga händelser</h2>
+        <table>
+            <tr><th>Tidsstämpel</th><th>Meddelande</th><th>Risk</th></tr>
+
+            <tr>
+                <td>2026-01-13 18:28:16</td>
+                <td>[2026-01-13 18:28:16] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (MDCoreSvc)' cannot b</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:32:58</td>
+                <td>[2026-01-13 18:32:58] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (MDCoreSvc)' cannot b</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:39:32</td>
+                <td>[2026-01-13 18:39:32] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (MDCoreSvc)' cannot b</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:47</td>
+                <td>[2026-01-13 18:43:47] [ERROR] Kunde inte exportera CSV: Cannot bind argument to parameter 'Message' </td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:50:51</td>
+                <td>[2026-01-13 18:50:51] [ERROR] Kunde inte hämta tjänster: Service 'MDCoreSvc (MDCoreSvc)' cannot be q</td>
+                <td><span class="severity-badge high">HIGH</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=BDESVC, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=DcomLaunch, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=DisplayEnhancementService, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=EFS, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=fdPHost, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=FDResPub, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=LibreOfficeMaintenance, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=LxpSvc, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:46</td>
+                <td>[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=MozillaMaintenance, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+            <tr>
+                <td>2026-01-13 18:43:47</td>
+                <td>[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=NcaSvc, Pattern=nc</td>
+                <td><span class="severity-badge medium">MEDIUM</span></td>
+            </tr>
+
+        </table>
+        
+        <h2>✅ Rekommendationer</h2>
+        <ul>
+<li>🔴 Undersök och åtgärda högrisk-processer och tjänster</li><li>🟡 Granska mediumrisk-händelser vid tillfälle</li>
+            <li>🔒 Kör säkerhetsskanning regelbundet (dagligen rekommenderas)</li>
+            <li>📊 Uppdatera risklistan baserat på nya hot</li>
+            <li>🛡️ Håll system och tjänster uppdaterade</li>
+        </ul>
+    </div>
+</body>
+</html>

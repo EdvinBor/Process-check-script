@@ -1,0 +1,281 @@
+======================================================================
+SÄKERHETSRAPPORT
+======================================================================
+Genererad: 2026-01-14 21:55:20
+Total säkerhetsnivå: MEDIUM
+
+SAMMANFATTNING
+----------------------------------------------------------------------
+Linux processer: 25 totalt, 0 anomalier
+Windows tjänster: 83 totalt
+Logghändelser: 196 rader
+
+Risker: 0 CRITICAL | 5 HIGH | 80 MEDIUM
+
+HÖGA RISKER
+----------------------------------------------------------------------
+[Log Error] Error Event
+  Details: [2026-01-13 18:28:16] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:32:58] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:39:32] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:43:47] [ERROR] Kunde inte exportera CSV: Cannot bind argument to 
+
+[Log Error] Error Event
+  Details: [2026-01-13 18:50:51] [ERROR] Kunde inte hämta tjänster: Service 'MDCoreSvc (MDC
+
+MEDIUM RISKER
+----------------------------------------------------------------------
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=BDESVC, Pattern=n
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=DcomLaunch, Patte
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=DisplayEnhancemen
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=EFS, Pattern=nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=fdPHost, Pattern=
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=FDResPub, Pattern
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=LibreOfficeMainte
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=LxpSvc, Pattern=n
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=MozillaMaintenanc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=NcaSvc, Pattern=n
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=NcbService, Patte
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=NcdAutoSetup, Pat
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=OneSyncSvc_7b8a9,
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=PeerDistSvc, Patt
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=PerfHost, Pattern
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=PimIndexMaintenan
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=pla, Pattern=nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=QWAVE, Pattern=nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=ssh-agent, Patter
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=vmictimesync, Pat
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=vmicvmsession, Pa
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=wcncsvc, Pattern=
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=WEPHOSTSVC, Patte
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=wmiApSrv, Pattern
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: BDESVC - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: DcomLaunch - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: DisplayEnhancementService - Mönster:
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: EFS - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: fdPHost - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: FDResPub - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: LibreOfficeMaintenance - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: LxpSvc - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: MozillaMaintenance - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: NcaSvc - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: NcbService - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: NcdAutoSetup - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: OneSyncSvc_7b8a9 - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: PeerDistSvc - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: PerfHost - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: PimIndexMaintenanceSvc_7b8a9 - Mönst
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: pla - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: QWAVE - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: ssh-agent - Mönster: ssh
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: vmictimesync - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: vmicvmsession - Mönster: rsh
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: wcncsvc - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: WEPHOSTSVC - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN] Riskig tjänst: wmiApSrv - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - BDESVC
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - DcomLaunch
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - DisplayEnhancementService
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - EFS
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - fdPHost
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - FDResPub
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - LibreOfficeMaintenance
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - LxpSvc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - MozillaMaintenance
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - NcaSvc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - NcbService
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - NcdAutoSetup
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - OneSyncSvc_7b8a9
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - PeerDistSvc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - PerfHost
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - PimIndexMaintenanceSvc_7b8a9
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - pla
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - QWAVE
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - ssh-agent
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - vmictimesync
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - vmicvmsession
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - wcncsvc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - WEPHOSTSVC
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 18:54:01] [WARN]   - wmiApSrv
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN] Riskig tjänst: DcomLaunch - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN] Riskig tjänst: EFS - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN] Riskig tjänst: NcbService - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN] Riskig tjänst: OneSyncSvc_7b8a9 - Mönster: nc
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN]   - DcomLaunch
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN]   - EFS
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN]   - NcbService
+
+[Log Warning] Warning Event
+  Details: [2026-01-13 20:56:59] [WARN]   - OneSyncSvc_7b8a9
+
+REKOMMENDATIONER
+----------------------------------------------------------------------
+- Granska mediumrisk-händelser vid tillfälle
+- Kör säkerhetsskanning regelbundet
+- Uppdatera risklistan baserat på nya hot
+- Håll system och tjänster uppdaterade
+
+======================================================================
