@@ -5,7 +5,7 @@
 # ============================================================================
 # Detta script:
 # 1. Hämtar alla aktiva processer från systemet
-# 2. Jämför processkommandona mot en risklista
+# 2. Jämför processkommandon mot en risklista
 # 3. Genererar en JSON-fil med resultat
 # 4. Loggar alla upptäckta risker
 # ============================================================================

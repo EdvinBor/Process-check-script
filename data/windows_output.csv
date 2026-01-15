@@ -9,6 +9,7 @@
 "cbdhsvc_7b8a9","Clipboard User Service_7b8a9","Running"
 "CDPSvc","Connected Devices Platform Service","Running"
 "CDPUserSvc_7b8a9","Connected Devices Platform User Service_7b8a9","Running"
+"ClipSVC","Client License Service (ClipSVC)","Running"
 "CoreMessagingRegistrar","CoreMessaging","Running"
 "CryptSvc","Cryptographic Services","Running"
 "DcomLaunch","DCOM Server Process Launcher","Running"

@@ -1,218 +1,29 @@
-2026-01-13T14:27:34Z - Exported JSON to ../data/linux_output.json
-2026-01-13T14:28:19Z - Exported JSON to ../data/linux_output.json
-2026-01-13T14:28:19Z - ERROR on line 141
-[2026-01-13 17:28:51] [INFO] ========== Linux Process Check påstartas ==========
-[2026-01-13 17:28:51] [INFO] Filkontroll genomförd - OK
-[2026-01-13 17:28:51] [INFO] Startar riskkontroll...
-[2026-01-13 17:28:51] [INFO] Hämtar aktiva processer...
-[2026-01-13 17:28:51] [INFO] Processkörning hämtad
-[2026-01-13 17:28:53] [INFO] Riskkontroll slutförd - 0 riskiga processer funna
-[2026-01-13 17:28:53] [INFO] Genererar JSON-output...
-[2026-01-13 17:28:53] [INFO] JSON-output sparad: ../data/linux_output.json
-[2026-01-13 17:28:53] [INFO] Resultat: 25 totala processer | 0 riskiga | Allvarlighetsgrad: LOW
-[2026-01-13 17:28:53] [INFO] ========== Linux Process Check slutförd ==========
-[2026-01-13 17:38:21] [INFO] ========== Linux Process Check påstartas ==========
-[2026-01-13 17:38:21] [INFO] Filkontroll genomförd - OK
-[2026-01-13 17:38:21] [INFO] Startar riskkontroll...
-[2026-01-13 17:38:21] [INFO] Hämtar aktiva processer...
-[2026-01-13 17:38:21] [INFO] Processkörning hämtad
-[2026-01-13 17:38:23] [INFO] Riskkontroll slutförd - 0 riskiga processer funna
-[2026-01-13 17:38:23] [INFO] Genererar JSON-output...
-[2026-01-13 17:38:23] [INFO] JSON-output sparad: ../data/linux_output.json
-[2026-01-13 17:38:23] [INFO] Resultat: 25 totala processer | 0 riskiga | Allvarlighetsgrad: LOW
-[2026-01-13 17:38:23] [INFO] ========== Linux Process Check slutförd ==========
-[2026-01-13 18:00:15] [INFO] ========== Linux Process Check påstartas ==========
-[2026-01-13 18:00:15] [INFO] Filkontroll genomförd - OK
-[2026-01-13 18:00:15] [INFO] Startar riskkontroll...
-[2026-01-13 18:00:15] [INFO] Hämtar aktiva processer...
-[2026-01-13 18:00:15] [INFO] Processkörning hämtad
-[2026-01-13 18:00:17] [INFO] Riskkontroll slutförd - 0 riskiga processer funna
-[2026-01-13 18:00:17] [INFO] Genererar JSON-output...
-[2026-01-13 18:00:18] [INFO] JSON-output sparad: ../data/linux_output.json
-[2026-01-13 18:00:18] [INFO] Resultat: 25 totala processer | 0 riskiga | Allvarlighetsgrad: LOW
-[2026-01-13 18:00:18] [INFO] ========== Linux Process Check slutförd ==========
-[2026-01-13 18:28:16] [INFO] ========== Windows Service Check påstartas ==========
-[2026-01-13 18:28:16] [INFO] Kontrollerar filer...
-[2026-01-13 18:28:16] [INFO] Filkontroll genomförd - OK
-[2026-01-13 18:28:16] [INFO] Hämtar aktiva Windows-tjänster...
-[2026-01-13 18:28:16] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (MDCoreSvc)' cannot be queried due to the following error: PermissionDenied
-[2026-01-13 18:32:58] [INFO] ========== Windows Service Check påstartas ==========
-[2026-01-13 18:32:58] [INFO] Admin-rättigheter: NEJ
-[2026-01-13 18:32:58] [INFO] Kontrollerar filer...
-[2026-01-13 18:32:58] [INFO] Filkontroll genomförd - OK
-[2026-01-13 18:32:58] [INFO] Hämtar aktiva Windows-tjänster...
-[2026-01-13 18:32:58] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (MDCoreSvc)' cannot be queried due to the following error: PermissionDenied
-[2026-01-13 18:39:32] [INFO] ========== Windows Service Check påstartas ==========
-[2026-01-13 18:39:32] [INFO] Admin-rättigheter: NEJ
-[2026-01-13 18:39:32] [INFO] Kontrollerar filer och mappar...
-[2026-01-13 18:39:32] [INFO] Filkontroll genomförd - OK
-[2026-01-13 18:39:32] [INFO] Output-sökväg: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\data\windows_output.csv
-[2026-01-13 18:39:32] [INFO] Log-sökväg: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\data\anomalies.log
-[2026-01-13 18:39:32] [INFO] Hämtar aktiva Windows-tjänster...
-[2026-01-13 18:39:32] [ERROR] Kunde inte hämta tjänstlista: Service 'MDCoreSvc (MDCoreSvc)' cannot be queried due to the following error: PermissionDenied
-[2026-01-13 18:43:45] [INFO] ========== Windows Service Check påstartas ==========
-[2026-01-13 18:43:45] [INFO] Admin-rättigheter: NEJ
-[2026-01-13 18:43:45] [INFO] Data-katalog: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\data
-[2026-01-13 18:43:45] [INFO] Kontrollerar filer och mappar...
-[2026-01-13 18:43:45] [INFO] Filkontroll genomförd - OK
-[2026-01-13 18:43:45] [INFO] Output-sökväg: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\data\windows_output.csv
-[2026-01-13 18:43:45] [INFO] Log-sökväg: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\data\anomalies.log
-[2026-01-13 18:43:45] [INFO] Hämtar Windows-tjänster...
-[2026-01-13 18:43:46] [DEBUG] Hoppar över tjänst: MDCoreSvc - PermissionDenied
-[2026-01-13 18:43:46] [INFO] Tjänster hämtade: 259 tjänster
-[2026-01-13 18:43:46] [INFO] Startar riskkontroll...
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=BDESVC, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=DcomLaunch, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=DisplayEnhancementService, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=EFS, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=fdPHost, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=FDResPub, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=LibreOfficeMaintenance, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=LxpSvc, Pattern=nc
-[2026-01-13 18:43:46] [WARN] Riskig tjänst detekterad: Service=MozillaMaintenance, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=NcaSvc, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=NcbService, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=NcdAutoSetup, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=OneSyncSvc_7b8a9, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=PeerDistSvc, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=PerfHost, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=PimIndexMaintenanceSvc_7b8a9, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=pla, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=QWAVE, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=ssh-agent, Pattern=ssh
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=vmictimesync, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=vmicvmsession, Pattern=rsh
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=wcncsvc, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=WEPHOSTSVC, Pattern=nc
-[2026-01-13 18:43:47] [WARN] Riskig tjänst detekterad: Service=wmiApSrv, Pattern=nc
-[2026-01-13 18:43:47] [INFO] Riskkontroll slutförd - 24 riskiga tjänster funna
-[2026-01-13 18:43:47] [INFO] Exporterar resultat till CSV...
-[2026-01-13 18:43:47] [INFO] CSV-output sparad: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\data\windows_output.csv
-[2026-01-13 18:43:47] [ERROR] Kunde inte exportera CSV: Cannot bind argument to parameter 'Message' because it is an empty string.
-[2026-01-13 18:50:51] [INFO] ========== Windows Service Check påstartas ==========
-[2026-01-13 18:50:51] [INFO] Hämtar tjänster...
-[2026-01-13 18:50:51] [ERROR] Kunde inte hämta tjänster: Service 'MDCoreSvc (MDCoreSvc)' cannot be queried due to the following error: PermissionDenied
-[2026-01-13 18:50:51] [INFO] Startar riskkontroll...
-[2026-01-13 18:50:51] [INFO] Riskkontroll slutförd - 0 riskiga tjänster funna
-[2026-01-13 18:50:51] [INFO] CSV-export sparad: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\powershell\..\data\windows_output.csv
-[2026-01-13 18:50:51] [INFO] ========== RESULTAT ==========
-[2026-01-13 18:50:51] [INFO] Totala tjänster: 0
-[2026-01-13 18:50:51] [INFO] Riskiga tjänster: 0
-[2026-01-13 18:50:51] [INFO] Allvarlighetsgrad: LOW MEDIUM HIGH
-[2026-01-13 18:50:51] [INFO] ========== Windows Service Check slutförd ==========
-[2026-01-13 18:54:01] [INFO] ========== Windows Service Check påstartas ==========
-[2026-01-13 18:54:01] [INFO] Hämtar tjänster...
-[2026-01-13 18:54:01] [INFO] Tjänster hämtade: 260 stycken
-[2026-01-13 18:54:01] [INFO] Startar riskkontroll...
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: BDESVC - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: DcomLaunch - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: DisplayEnhancementService - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: EFS - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: fdPHost - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: FDResPub - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: LibreOfficeMaintenance - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: LxpSvc - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: MozillaMaintenance - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: NcaSvc - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: NcbService - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: NcdAutoSetup - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: OneSyncSvc_7b8a9 - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: PeerDistSvc - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: PerfHost - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: PimIndexMaintenanceSvc_7b8a9 - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: pla - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: QWAVE - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: ssh-agent - Mönster: ssh
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: vmictimesync - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: vmicvmsession - Mönster: rsh
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: wcncsvc - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: WEPHOSTSVC - Mönster: nc
-[2026-01-13 18:54:01] [WARN] Riskig tjänst: wmiApSrv - Mönster: nc
-[2026-01-13 18:54:01] [INFO] Riskkontroll slutförd - 24 riskiga tjänster funna
-[2026-01-13 18:54:01] [INFO] CSV-export sparad: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\powershell\..\data\windows_output.csv
-[2026-01-13 18:54:01] [INFO] ========== RESULTAT ==========
-[2026-01-13 18:54:01] [INFO] Totala tjänster: 260
-[2026-01-13 18:54:01] [INFO] Riskiga tjänster: 24
-[2026-01-13 18:54:01] [INFO] Allvarlighetsgrad: CRITICAL
-[2026-01-13 18:54:01] [INFO] Riskiga tjänster:
-[2026-01-13 18:54:01] [WARN]   - BDESVC
-[2026-01-13 18:54:01] [WARN]   - DcomLaunch
-[2026-01-13 18:54:01] [WARN]   - DisplayEnhancementService
-[2026-01-13 18:54:01] [WARN]   - EFS
-[2026-01-13 18:54:01] [WARN]   - fdPHost
-[2026-01-13 18:54:01] [WARN]   - FDResPub
-[2026-01-13 18:54:01] [WARN]   - LibreOfficeMaintenance
-[2026-01-13 18:54:01] [WARN]   - LxpSvc
-[2026-01-13 18:54:01] [WARN]   - MozillaMaintenance
-[2026-01-13 18:54:01] [WARN]   - NcaSvc
-[2026-01-13 18:54:01] [WARN]   - NcbService
-[2026-01-13 18:54:01] [WARN]   - NcdAutoSetup
-[2026-01-13 18:54:01] [WARN]   - OneSyncSvc_7b8a9
-[2026-01-13 18:54:01] [WARN]   - PeerDistSvc
-[2026-01-13 18:54:01] [WARN]   - PerfHost
-[2026-01-13 18:54:01] [WARN]   - PimIndexMaintenanceSvc_7b8a9
-[2026-01-13 18:54:01] [WARN]   - pla
-[2026-01-13 18:54:01] [WARN]   - QWAVE
-[2026-01-13 18:54:01] [WARN]   - ssh-agent
-[2026-01-13 18:54:01] [WARN]   - vmictimesync
-[2026-01-13 18:54:01] [WARN]   - vmicvmsession
-[2026-01-13 18:54:01] [WARN]   - wcncsvc
-[2026-01-13 18:54:01] [WARN]   - WEPHOSTSVC
-[2026-01-13 18:54:01] [WARN]   - wmiApSrv
-[2026-01-13 18:54:01] [INFO] ========== Windows Service Check slutförd ==========
-[2026-01-13 20:56:59] [INFO] ========== Windows Service Check påstartas ==========
-[2026-01-13 20:56:59] [INFO] Hämtar aktiva tjänster...
-[2026-01-13 20:56:59] [INFO] Aktiva tjänster hämtade: 83 stycken
-[2026-01-13 20:56:59] [INFO] Startar riskkontroll...
-[2026-01-13 20:56:59] [WARN] Riskig tjänst: DcomLaunch - Mönster: nc
-[2026-01-13 20:56:59] [WARN] Riskig tjänst: EFS - Mönster: nc
-[2026-01-13 20:56:59] [WARN] Riskig tjänst: NcbService - Mönster: nc
-[2026-01-13 20:56:59] [WARN] Riskig tjänst: OneSyncSvc_7b8a9 - Mönster: nc
-[2026-01-13 20:56:59] [INFO] Riskkontroll slutförd - 4 riskiga tjänster funna
-[2026-01-13 20:56:59] [INFO] CSV-export sparad: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\powershell\..\data\windows_output.csv
-[2026-01-13 20:56:59] [INFO] ========== RESULTAT ==========
-[2026-01-13 20:56:59] [INFO] Totala tjänster: 83
-[2026-01-13 20:56:59] [INFO] Riskiga tjänster: 4
-[2026-01-13 20:56:59] [INFO] Allvarlighetsgrad: HIGH
-[2026-01-13 20:56:59] [INFO] Riskiga tjänster:
-[2026-01-13 20:56:59] [WARN]   - DcomLaunch
-[2026-01-13 20:56:59] [WARN]   - EFS
-[2026-01-13 20:56:59] [WARN]   - NcbService
-[2026-01-13 20:56:59] [WARN]   - OneSyncSvc_7b8a9
-[2026-01-13 20:56:59] [INFO] ========== Windows Service Check slutförd ==========
-[2026-01-14 21:40:12] [INFO] Linux Process Check startar...
-[2026-01-14 21:40:12] [INFO] Filkontroll OK
-[2026-01-14 21:40:12] [INFO] Skannar processer mot risklista...
-[2026-01-14 21:40:15] [INFO] Skanning klar: 0 riskiga av 25 totalt
-[2026-01-14 21:40:15] [INFO] Skapar JSON-output...
-[2026-01-14 21:40:15] [INFO] JSON sparad: ../data/linux_output.json (Allvarlighetsgrad: LOW)
-[2026-01-14 21:40:15] [INFO] Linux Process Check slutförd
-[2026-01-14 21:40:31] [INFO] Linux Process Check startar...
-[2026-01-14 21:40:31] [INFO] Filkontroll OK
-[2026-01-14 21:40:31] [INFO] Skannar processer mot risklista...
-[2026-01-14 21:40:33] [INFO] Skanning klar: 0 riskiga av 25 totalt
-[2026-01-14 21:40:33] [INFO] Skapar JSON-output...
-[2026-01-14 21:40:33] [INFO] JSON sparad: ../data/linux_output.json (Allvarlighetsgrad: LOW)
-[2026-01-14 21:40:33] [INFO] Linux Process Check slutförd
-[2026-01-14 22:07:54] [INFO] Windows Service Check startar...
-[2026-01-14 22:07:54] [INFO] Hämtar aktiva tjänster...
-[2026-01-14 22:07:55] [INFO] Aktiva tjänster hämtade: 86 stycken
-[2026-01-14 22:07:55] [INFO] Startar riskkontroll...
-[2026-01-14 22:07:55] [WARN] Riskig tjänst: DcomLaunch (Mönster: nc)
-[2026-01-14 22:07:55] [WARN] Riskig tjänst: DisplayEnhancementService (Mönster: nc)
-[2026-01-14 22:07:55] [WARN] Riskig tjänst: EFS (Mönster: nc)
-[2026-01-14 22:07:55] [WARN] Riskig tjänst: NcbService (Mönster: nc)
-[2026-01-14 22:07:55] [WARN] Riskig tjänst: OneSyncSvc_7b8a9 (Mönster: nc)
-[2026-01-14 22:07:55] [INFO] Riskkontroll slutförd - 5 riskiga tjänster funna
-[2026-01-14 22:07:55] [INFO] CSV exporterad: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\powershell\..\data\windows_output.csv
-[2026-01-14 22:07:55] [INFO] ========== RESULTAT ==========
-[2026-01-14 22:07:55] [INFO] Totala tjänster: 86
-[2026-01-14 22:07:55] [INFO] Riskiga tjänster: 5
-[2026-01-14 22:07:55] [INFO] Allvarlighetsgrad: HIGH
-[2026-01-14 22:07:55] [INFO] Riskiga tjänster:
-[2026-01-14 22:07:55] [WARN]   - DcomLaunch
-[2026-01-14 22:07:55] [WARN]   - DisplayEnhancementService
-[2026-01-14 22:07:55] [WARN]   - EFS
-[2026-01-14 22:07:55] [WARN]   - NcbService
-[2026-01-14 22:07:55] [WARN]   - OneSyncSvc_7b8a9
-[2026-01-14 22:07:55] [INFO] ========== Windows Service Check slutförd ==========
+[2026-01-15 13:08:45] [INFO] Linux Process Check startar...
+[2026-01-15 13:08:45] [INFO] Filkontroll OK
+[2026-01-15 13:08:45] [INFO] Skannar processer mot risklista...
+[2026-01-15 13:08:47] [INFO] Skanning klar: 0 riskiga av 25 totalt
+[2026-01-15 13:08:47] [INFO] Skapar JSON-output...
+[2026-01-15 13:08:47] [INFO] JSON sparad: ../data/linux_output.json (Allvarlighetsgrad: LOW)
+[2026-01-15 13:08:47] [INFO] Linux Process Check slutförd
+[2026-01-15 13:11:29] [INFO] Windows Service Check startar...
+[2026-01-15 13:11:29] [INFO] Hämtar aktiva tjänster...
+[2026-01-15 13:11:29] [INFO] Aktiva tjänster hämtade: 87 stycken
+[2026-01-15 13:11:29] [INFO] Startar riskkontroll...
+[2026-01-15 13:11:29] [WARN] Riskig tjänst: DcomLaunch (Mönster: nc)
+[2026-01-15 13:11:29] [WARN] Riskig tjänst: DisplayEnhancementService (Mönster: nc)
+[2026-01-15 13:11:29] [WARN] Riskig tjänst: EFS (Mönster: nc)
+[2026-01-15 13:11:29] [WARN] Riskig tjänst: NcbService (Mönster: nc)
+[2026-01-15 13:11:29] [WARN] Riskig tjänst: OneSyncSvc_7b8a9 (Mönster: nc)
+[2026-01-15 13:11:29] [INFO] Riskkontroll slutförd - 5 riskiga tjänster funna
+[2026-01-15 13:11:29] [INFO] CSV exporterad: C:\Users\Edvin\Documents\vscode\process-check-script\Process-check-script\powershell\..\data\windows_output.csv
+[2026-01-15 13:11:29] [INFO] ========== RESULTAT ==========
+[2026-01-15 13:11:29] [INFO] Totala tjänster: 87
+[2026-01-15 13:11:29] [INFO] Riskiga tjänster: 5
+[2026-01-15 13:11:29] [INFO] Allvarlighetsgrad: HIGH
+[2026-01-15 13:11:29] [INFO] Riskiga tjänster:
+[2026-01-15 13:11:29] [WARN]   - DcomLaunch
+[2026-01-15 13:11:29] [WARN]   - DisplayEnhancementService
+[2026-01-15 13:11:29] [WARN]   - EFS
+[2026-01-15 13:11:29] [WARN]   - NcbService
+[2026-01-15 13:11:29] [WARN]   - OneSyncSvc_7b8a9
+[2026-01-15 13:11:29] [INFO] ========== Windows Service Check slutförd ==========

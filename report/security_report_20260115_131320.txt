@@ -1,0 +1,75 @@
+======================================================================
+SÄKERHETSRAPPORT
+======================================================================
+Genererad: 2026-01-15 13:13:20
+Total säkerhetsnivå: LOW
+
+SAMMANFATTNING
+----------------------------------------------------------------------
+Linux processer: 0 totalt, 0 anomalier
+Windows tjänster: 87 totalt
+Logghändelser: 29 rader
+
+Risker: 0 CRITICAL | 5 HIGH | 10 MEDIUM
+
+HÖGA RISKER
+----------------------------------------------------------------------
+[Windows Service] DcomLaunch
+  Details: DCOM Server Process Launcher
+  Pattern: Running risky service
+
+[Windows Service] DisplayEnhancementService
+  Details: Display Enhancement Service
+  Pattern: Running risky service
+
+[Windows Service] EFS
+  Details: Encrypting File System (EFS)
+  Pattern: Running risky service
+
+[Windows Service] NcbService
+  Details: Network Connection Broker
+  Pattern: Running risky service
+
+[Windows Service] OneSyncSvc_7b8a9
+  Details: Sync Host_7b8a9
+  Pattern: Running risky service
+
+MEDIUM RISKER
+----------------------------------------------------------------------
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN] Riskig tjänst: DcomLaunch (Mönster: nc)
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN] Riskig tjänst: DisplayEnhancementService (Mönster: 
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN] Riskig tjänst: EFS (Mönster: nc)
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN] Riskig tjänst: NcbService (Mönster: nc)
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN] Riskig tjänst: OneSyncSvc_7b8a9 (Mönster: nc)
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN]   - DcomLaunch
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN]   - DisplayEnhancementService
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN]   - EFS
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN]   - NcbService
+
+[Log Warning] Warning Event
+  Details: [2026-01-15 13:11:29] [WARN]   - OneSyncSvc_7b8a9
+
+REKOMMENDATIONER
+----------------------------------------------------------------------
+- Kör säkerhetsskanning regelbundet
+- Uppdatera risklistan baserat på nya hot
+- Håll system och tjänster uppdaterade
+
+======================================================================
